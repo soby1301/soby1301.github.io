@@ -1,3 +1,62 @@
+/* Policy Section Styles for Privacy Page */
+.policy-section {
+  background: #140152;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(34, 0, 124, 0.08);
+  padding: 2.5rem 2rem 2rem 2rem;
+  margin-bottom: 2.5rem;
+  animation: fadeInUp 1s both;
+}
+.policy-section h3 {
+  color: #896978;
+  font-size: 2rem;
+  margin-bottom: 1.2rem;
+  text-align: left;
+}
+.policy-section p {
+  color: #abacf8;
+  margin-bottom: 1.1rem;
+  font-size: 1.08rem;
+}
+.policy-section ol {
+  margin-left: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #beaafe;
+  font-size: 1.05rem;
+  padding-left: 1.2rem;
+}
+.policy-section ol > li {
+  margin-bottom: 1.1rem;
+  line-height: 1.7;
+}
+.policy-section ul {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: 1.2rem;
+  color: #aea4f6;
+  font-size: 1rem;
+}
+.policy-section ul li {
+  margin-bottom: 0.4rem;
+}
+.policy-section strong {
+  color: #beaafe;
+}
+.policy-section .contact-actions {
+  margin-top: 1rem;
+  flex-direction: row;
+  gap: 1.2rem;
+}
+
+/* Responsive for policy sections */
+@media (max-width: 700px) {
+  .policy-section {
+    padding: 1.2rem 0.7rem 1.2rem 0.7rem;
+  }
+  .policy-section h3 {
+    font-size: 1.2rem;
+  }
+}
 /* Contact Actions */
 .contact-actions {
   display: flex;
@@ -52,6 +111,8 @@ body {
   max-width: 1100px;
   margin: 0 auto;
   padding-bottom: 2%;
+  /* Add top padding for privacy page */
+  padding-top: 2%;
 }
 
 /* Header */
